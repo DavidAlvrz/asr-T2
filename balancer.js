@@ -3,8 +3,8 @@ const app = express();
 
 const port = 3000;
 const nodeIps = [
-    '192.168.56,22',
-    '192.168.56,23',
+    '192.168.56.22',
+    '192.168.56.23',
 ];
 let lastNode = -1;
 
